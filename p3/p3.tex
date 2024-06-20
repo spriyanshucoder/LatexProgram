@@ -1,0 +1,73 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{background}
+\usepackage{xcolor}
+\usetikzlibrary{calc}
+
+\geometry{margin=0.8in}
+
+\backgroundsetup{
+  angle=0, 
+  scale=1,
+  position=current page.south,
+  vshift=2ex,
+  contents={\tikz[overlay,remember picture] \draw[line width=2pt, color=black, double=black] ($(current page.north west) + (1cm,-1cm)$) rectangle ($(current page.south east) + (-1cm,1cm)$);}
+}
+
+\begin{document}
+\begin{titlepage}
+\centering
+
+\textcolor{red}{\textbf{\LARGE VISVESVARAYA TECHNOLOGICAL UNIVERSITY\\{\textbf{\Large JNANASANGAMA, BELAGAVI-590018}}}}
+
+\vspace{0.5cm}
+
+\includegraphics[width=0.45\textwidth]{vtu.jpg}
+
+\vspace{0.5cm}
+
+\textcolor{red}{\textbf{\Large A Mini Project Report on}}\\
+
+\vspace{0.5cm}
+
+\textcolor{blue}{\textbf{\Huge LaTeX Technical Document Writing}}\\
+Submitted in partial fulfillment of the requirements as a part of the LaTeX lab with mini-project (BCSL456D) for the IV Semester of the degree of Bachelor of Engineering in Information Science and Engineering of Visvesvaraya Technological University, Belagavi.
+
+\vspace{0.5cm}
+
+\textcolor{blue}{\textbf{\Large Submitted By}}\\
+
+\vspace{0.4cm}
+
+\textcolor{red}{\textbf{Prajwal G}}\\
+USN: 1RN22IS107 \\
+Department of ISE
+
+\vspace{0.4cm}
+
+\textsf{\textbf{Under the guidance of}}\\
+
+\textcolor{red}{\textbf{Mrs. Karitha B\\
+Assistant Professor \\
+Department of ISE, RNSIT}}
+
+\vspace{0.5cm}
+
+\includegraphics[width=0.22\textwidth]{rnslogo.jpg}
+
+\vspace{1.5cm}
+
+\textcolor{red}{\textbf{Department of Information Science and Engineering}}\\
+\textcolor{blue}{\textbf{RNS Institute of Technology}}\\
+\textcolor{red}{Dr. Vishnuvardhana Road Post, RNS Farms, \\
+Channasandra, Rajarajeshwari Nagar, \\
+Bengaluru, Karnataka-560098}
+
+\vspace{1cm}
+
+2023-2024
+
+\end{titlepage}
+\end{document}
