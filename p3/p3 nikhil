@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{fancybox}
+\date{}
+%\pagecolor{pink}
+\geometry{a4paper,margin=1in}
+
+\begin{document}
+	\thisfancypage{
+		\setlength{\fboxsep}{15pt}\doublebox}{}
+	\begin{titlepage}
+		
+		\noindent
+		\centering\textcolor{red}{\textbf{\Large VISVESVARAYA TECHNOLOGICAL UNIVERSITY}\\
+		\centering{\large JNAYANA SANGAMA,BELAGAVI-590018}}
+		\vspace{.5cm}\\
+		\centering
+		\includegraphics[width=0.3\textwidth]{vtu.jpg}\\
+		\vspace{1cm}
+		\textbf{\LARGE PROJECT REPORT TITLE}\\
+		\vspace{.5cm};
+		\textcolor{blue}{
+		\Large \textbf{BY}\\
+	    Priyanshu Singh\\
+		1RN22IS116\\
+		Information Science\\
+		}
+		\vspace{.5cm}
+		\textcolor{black}{
+		\textit{\Large
+		\textbf{Guide: }\\
+		Janardhan Singh\\
+		Department of Informaion Science\\
+		}
+	}
+		\vspace{1cm}
+		\textcolor{cyan}{ 		}
+		\vspace{.5cm}\textcolor{black}{
+		\Large\textbf{Date: \today}\\
+		}
+		\includegraphics[width=0.3\textwidth]{rnslogo.jpg}\\
+		\vspace{0.5cm}
+		\textcolor{blue}{
+		\textbf{\LARGE
+			\textbf{Department of Information Science and Engineering}}}
+			\textcolor{red}{\LARGE \textbf{RNS Institute of Technology}\\
+		\Large Channasandra,Dr.Vishnuvardhan Road,RR Nagar Post,\\
+		\centering Begaluru-560098\\
+		\textbf{\LARGE2023-2024}\\
+	}
+		
+		
+	\end{titlepage}
+\end{document}
