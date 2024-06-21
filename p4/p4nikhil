@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{fancybox}
+\usepackage{ragged2e}
+
+%\usepackage[document]{ragged2e}
+\date{}
+%\pagecolor{pink}
+\geometry{a4paper,margin=1in}
+
+\begin{document}
+	\thisfancypage{
+		\setlength{\fboxsep}{15pt}\doublebox}{}
+	\begin{titlepage}
+		\begin{center}
+			\vspace{1cm}
+			\noindent
+			\centering\textcolor{red}{\textbf{\LARGE RNS INSTITUTE OF TECHNOLOGY\\}}
+			\centering{\large { Channasandra,Dr.Vishnuvardhan Road,RR Nagar Post,\\
+					\centering{Bengaluru - 560 098}}
+			}
+			\vspace{1cm}\\
+			\centering
+			\textcolor{blue}{\textbf{\fontsize{13}{5}\selectfont DEPARTMENT OF INFORMATION SCIENCE AND ENGINEERING}}
+			
+			\vspace{1cm}
+			\includegraphics[width=0.2\textwidth]{rnslogo.jpg}\\
+			\vspace{.5cm}
+			\textcolor{red}{\textbf{\LARGE CERTIFICATE}}
+			
+			\vspace{.9cm}
+			
+		\end{center}
+\setstretch{1.5}		
+\justify
+This is to certify that the Mini project entitled \textbf{Library Management System} has been successfully completed by \textbf{Priyanshu Singh} bearing \textbf{USN 1RN22IS116}, \textbf{Rahul M Howsgowda} bearing \textbf{USN 1RN22IS119} and \textbf{Pawan SM} bearing \textbf{USN 1RN22IS103} presently IV semester students of \textbf{RNS Institute of Technology} in partial fulfillment of the requirements as a part of the DBMS Laboratory with Mini Project-22IS116 for the award of the degree \textbf{Bachelor of Engineering in Information Science and Engineering} under \textbf{Visvesvaraya Technological University, Belgavi} during academic year 2023 - 2024. It is certified that all corrections/suggestions indicated for Internal Assessment have been incorporated in the report deposited in the departmental library. The mini project report has been approved as it satisfies the academic requirements as a part of DBMS Laboratory with Mini Project-22IS116 for the said degree.
+		
+		\vspace{1.5 cm}
+		%\includegraphics[width=0.3\textwidth]{/home/admin1/vtu.jpeg}\\
+		%\vspace{1cm}
+		%\textbf{\LARGE PROJECT REPORT TITLE}\\
+		\centering
+		\hfill
+		\hspace{.5cm}\rule{4cm}{0.4pt}
+		\hfill
+		\rule{4cm}{0.4pt}
+		\hfill
+		\rule{4cm}{0.4pt}
+		\hfill
+		\vspace{.2cm}\\
+		\centering
+		\hfill
+		\textcolor{blue}{\textbf{\large Ms.Kavitha B}}
+		\hfill
+		\textcolor{blue}{\textbf{\large Dr.Suresh L}}
+		\hfill
+		\textcolor{blue}{\textbf{\large Dr.Suresh L}}
+		\hfill
+		\vspace{.02cm}\\
+		\centering
+		\hfill
+		{\large \hspace{.6cm}Lab In Charge}
+		\hfill
+		{\large \hspace{.4cm}Faculty In charge}
+		\hfill
+		{\large Professor and HOD}
+		\hfill
+		\vspace{.5cm};
+		
+		\centering 
+		\textbf{\large External Viva}
+		
+		\vspace{2cm}
+		%\centering
+		
+		%\hspace{0.02cm}
+		
+		\textbf{Name of the Examiners}
+		\hspace{6cm}\textbf{Signature with date}
+		\\
+		\vspace{.3cm}
+		\textbf{1.\rule{4cm}{0.4pt}}
+		\hspace{6cm}\rule{4cm}{0.4pt}
+		\\
+		\vspace{.3cm}
+		\textbf{2.\rule{4cm}{0.4pt}}
+		\hspace{6cm}\rule{4cm}{0.4pt}
+		\\
+		
+		
+	\end{titlepage}
+\end{document}
